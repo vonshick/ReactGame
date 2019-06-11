@@ -1,0 +1,233 @@
+[
+  {
+    "character": "Skrull",
+    "choices": [
+      {
+        "character": "Captain Marvel",
+        "outcomes": [
+          {
+            "nextCharacter": "Thanos",
+            "probability": 0.7
+          },
+          {
+            "nextCharacter": "Red Skull",
+            "probability": 0.3
+          }
+        ]
+      },
+      {
+        "character": "Iron Man",
+        "outcomes": [
+          {
+            "nextCharacter": "Ultron",
+            "probability": 0.6
+          },
+          {
+            "nextCharacter": "Nebula",
+            "probability": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "Thanos",
+    "choices": [
+      {
+        "character": "Black Panther",
+        "outcomes": [
+          {
+            "nextCharacter": "Red Skull",
+            "probability": 0.8
+          },
+          {
+            "nextCharacter": "Skrull",
+            "probability": 0.2
+          }
+        ]
+      },
+      {
+        "character": "Iron Man",
+        "outcomes": [
+          {
+            "nextCharacter": "END GAME",
+            "probability": 0.8
+          },
+          {
+            "nextCharacter": "Hela",
+            "probability": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "Red Skull",
+    "choices": [
+      {
+        "character": "Captain America",
+        "outcomes": [
+          {
+            "nextCharacter": "Nebula",
+            "probability": 0.6
+          },
+          {
+            "nextCharacter": "Thanos",
+            "probability": 0.4
+          }
+        ]
+      },
+      {
+        "character": "Hulk",
+        "outcomes": [
+          {
+            "nextCharacter": "END GAME",
+            "probability": 0.7
+          },
+          {
+            "nextCharacter": "Thanos",
+            "probability": 0.3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "Ultron",
+    "choices": [
+      {
+        "character": "Hawkeye",
+        "outcomes": [
+          {
+            "nextCharacter": "Hela",
+            "probability": 0.4
+          },
+          {
+            "nextCharacter": "Skrull",
+            "probability": 0.6
+          }
+        ]
+      },
+      {
+        "character": "Scarlet Witch",
+        "outcomes": [
+          {
+            "nextCharacter": "Thanos",
+            "probability": 0.6
+          },
+          {
+            "nextCharacter": "Nebula",
+            "probability": 0.4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "Hela",
+    "choices": [
+      {
+        "character": "Thor",
+        "outcomes": [
+          {
+            "nextCharacter": "Ultron",
+            "probability": 0.6
+          },
+          {
+            "nextCharacter": "Loki",
+            "probability": 0.4
+          }
+        ]
+      },
+      {
+        "character": "Hulk",
+        "outcomes": [
+          {
+            "nextCharacter": "END GAME",
+            "probability": 0.8
+          },
+          {
+            "nextCharacter": "Nebula",
+            "probability": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "END GAME",
+    "choices": [
+      {
+        "character": "Play again",
+        "outcomes": [
+          {
+            "nextCharacter": "Skrull",
+            "probability": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "Nebula",
+    "choices": [
+      {
+        "character": "Gamora",
+        "outcomes": [
+          {
+            "nextCharacter": "END GAME",
+            "probability": 0.4
+          },
+          {
+            "nextCharacter": "Loki",
+            "probability": 0.6
+          }
+        ]
+      },
+      {
+        "character": "Drax",
+        "outcomes": [
+          {
+            "nextCharacter": "END GAME",
+            "probability": 0.8
+          },
+          {
+            "nextCharacter": "Ultron",
+            "probability": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "Loki",
+    "choices": [
+      {
+        "character": "Black Widow",
+        "outcomes": [
+          {
+            "nextCharacter": "Nebula",
+            "probability": 0.6
+          },
+          {
+            "nextCharacter": "Red Skull",
+            "probability": 0.4
+          }
+        ]
+      },
+      {
+        "character": "Iron Man",
+        "outcomes": [
+          {
+            "nextCharacter": "END GAME",
+            "probability": 0.8
+          },
+          {
+            "nextCharacter": "Skrull",
+            "probability": 0.2
+          }
+        ]
+      }
+    ]
+  }
+]
